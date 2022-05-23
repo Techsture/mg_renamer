@@ -2,6 +2,7 @@
 
 This script does a few things:
 - Checks the format of each file.
+    - WAV  
     - 48,000 kHz
     - 32-bit
     - Stereo
