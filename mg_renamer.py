@@ -58,13 +58,13 @@ def main():
                 print(f"\t[1] {filename} is not an audio file.")
                 error_flag = True
         if error_flag == False:
-            print("\nNo errors found. Continuing...")
+            print("\nNo errors found. Continuing...\n")
         else:
             print("\nErrors found!  See above output.  Exiting...")
             exit()
         for filename in filenames:
             new_filename = 'mg' + file_numbering.pop(0) + '.wav'
-            print(f"Renaming {filename} to: {new_filename}")
+            print(f"Renaming \"{filename}\" to: {new_filename}")
             os.rename(f'{dirpath}/{filename}', f'{dirpath}/{new_filename}')
     exit()
 
