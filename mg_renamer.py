@@ -36,7 +36,6 @@ def main():
                 #    Bit Depth: {wav_file_data.subtype}\n \
                 #    Length (in seconds): {file_length} \
                 # ")
-                
                 if wav_file_data.format != 'WAV':
                     print(f"\t[1] {filename} is not a WAV file.")
                     error_flag = True
