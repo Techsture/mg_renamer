@@ -64,7 +64,7 @@ def main():
             exit()
         for filename in filenames:
             new_filename = 'mg' + file_numbering.pop(0) + '.wav'
-            print(f"\nRenaming {filename} to: {new_filename}")
+            print(f"Renaming {filename} to: {new_filename}")
             os.rename(f'{dirpath}/{filename}', f'{dirpath}/{new_filename}')
     exit()
 
