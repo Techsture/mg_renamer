@@ -9,4 +9,3 @@ This script does a few things:
     - Less than 174 seconds in length.
 - Checks that there are 32 or fewer files in the folder.
 - Renames the files `mg1.wav` through `mgw.wav`
-
